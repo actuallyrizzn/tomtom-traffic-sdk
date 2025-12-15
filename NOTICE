@@ -1,0 +1,15 @@
+## Third-party materials notice
+
+This repository contains (or references) materials that originate from third parties.
+
+### TomTom documentation and OpenAPI spec
+
+- `docs/tomtom-traffic-api.md` is a generated aggregation of TomTom Developer Portal Traffic API documentation pages.
+- `docs/spec/tomtom-traffic-api.yml` is a downloaded OpenAPI specification referenced by that documentation snapshot.
+
+TomTom and the TomTom Developer Portal are trademarks of TomTom. Any TomTom-originated content included in this repository remains subject to TomTom’s rights and terms. This project’s licensing statements do not override third‑party licenses/terms for third‑party materials.
+
+### Repository licensing summary
+
+- Code: **AGPL-3.0-only** (see `LICENSE`)
+- Non-code (documentation/prose authored for this repository): **CC BY-SA 4.0** (see `LICENSES/CC-BY-SA-4.0.txt`)

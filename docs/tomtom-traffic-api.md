@@ -2927,9 +2927,11 @@ enum TimeValidity {
 }
 ```
 
-### Log in
+### Incident Details V2 (Gated)
 
 - **Source**: `https://developer.tomtom.com/traffic-api/documentation/tomtom-orbis-maps/traffic-incidents/incident-details-v2`
+
+**Note**: This documentation page is not publicly accessible (it redirects to the TomTom Developer Portal login). Until we have authenticated access (or an alternate public spec), we cannot extract the full parameter tables and response formats.
 
 ### Raster Incident Tiles
 
@@ -3075,9 +3077,11 @@ curl 'https://{baseURL}/maps/orbis/traffic/tile/incidents/{zoom}/{x}/{y}.{format
 }
 ```
 
-### Log in
+### Raster Incident Tiles V2 (Gated)
 
 - **Source**: `https://developer.tomtom.com/traffic-api/documentation/tomtom-orbis-maps/traffic-incidents/raster-incident-tiles-v2`
+
+**Note**: This documentation page is not publicly accessible (it redirects to the TomTom Developer Portal login). Until we have authenticated access (or an alternate public spec), we cannot extract the full parameter tables and response formats.
 
 ### Vector Incident Tiles
 
@@ -3239,13 +3243,17 @@ curl 'https://api.tomtom.com/maps/orbis/traffic/tile/incidents/5/4/8.pbf?apiVers
 }
 ```
 
-### Log in
+### Vector Incident Tiles V2 (Gated)
 
 - **Source**: `https://developer.tomtom.com/traffic-api/documentation/tomtom-orbis-maps/traffic-incidents/vector-incident-tiles-v2`
 
-### Log in
+**Note**: This documentation page is not publicly accessible (it redirects to the TomTom Developer Portal login). Until we have authenticated access (or an alternate public spec), we cannot extract the full parameter tables and response formats.
+
+### Traffic Incidents Extended Tiles (Gated)
 
 - **Source**: `https://developer.tomtom.com/traffic-api/documentation/tomtom-orbis-maps/extended/traffic-incidents-extended-tiles`
+
+**Note**: This documentation page is not publicly accessible (it redirects to the TomTom Developer Portal login). Until we have authenticated access (or an alternate public spec), we cannot extract the full parameter tables and response formats.
 
 ### Raster Flow Tiles
 
@@ -3382,9 +3390,11 @@ curl 'https://{baseURL}/maps/orbis/traffic/tile/flow/{zoom}/{x}/{y}.{format}?api
 }
 ```
 
-### Log in
+### Raster Flow Tiles V2 (Gated)
 
 - **Source**: `https://developer.tomtom.com/traffic-api/documentation/tomtom-orbis-maps/traffic-flow/raster-flow-tiles-v2`
+
+**Note**: This documentation page is not publicly accessible (it redirects to the TomTom Developer Portal login). Until we have authenticated access (or an alternate public spec), we cannot extract the full parameter tables and response formats.
 
 ### Vector Flow Tiles
 
@@ -3569,10 +3579,14 @@ layer: 0
 }
 ```
 
-### Log in
+### Vector Flow Tiles V2 (Gated)
 
 - **Source**: `https://developer.tomtom.com/traffic-api/documentation/tomtom-orbis-maps/traffic-flow/vector-flow-tiles-v2`
 
-### Log in
+**Note**: This documentation page is not publicly accessible (it redirects to the TomTom Developer Portal login). Until we have authenticated access (or an alternate public spec), we cannot extract the full parameter tables and response formats.
+
+### Traffic Flow Extended Tiles (Gated)
 
 - **Source**: `https://developer.tomtom.com/traffic-api/documentation/tomtom-orbis-maps/extended/traffic-flow-extended-tiles`
+
+**Note**: This documentation page is not publicly accessible (it redirects to the TomTom Developer Portal login). Until we have authenticated access (or an alternate public spec), we cannot extract the full parameter tables and response formats.

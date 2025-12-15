@@ -201,6 +201,22 @@ def scrape_page(path: str) -> str:
     h1 = soup.find("h1")
     title = _text(h1) if isinstance(h1, Tag) else path
 
+    # Some Orbis pages are gated and redirect to the user login page while still returning HTTP 200.
+    og = soup.find("meta", attrs={"property": "og:title"})
+    og_title = (og.get("content") if isinstance(og, Tag) else "") or ""
+    if title.strip().lower() == "log in" or "login | user account" in og_title.lower():
+        md: List[str] = []
+        md.append(f"### {path.rsplit('/', 1)[-1].replace('-', ' ').title()} (Gated)")
+        md.append("")
+        md.append(f"- **Source**: `{url}`")
+        md.append("")
+        md.append(
+            "**Note**: This documentation page is not publicly accessible (it redirects to the TomTom Developer Portal login). "
+            "Until we have authenticated access (or an alternate public spec), we cannot extract the full parameter tables and response formats."
+        )
+        md.append("")
+        return "\n".join(md).rstrip() + "\n"
+
     code_blocks = _extract_code_blocks(soup)
     tables = _extract_tables_for_sections(
         soup,

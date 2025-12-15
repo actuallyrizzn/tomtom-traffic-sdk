@@ -1,0 +1,25 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:discover-spec": "node scripts/discover-traffic-api-spec.mjs",
+    "docs:generate": "python3 scripts/generate_traffic_api_docs.py",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actuallyrizzn/tomtom-traffic-sdk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/actuallyrizzn/tomtom-traffic-sdk/issues"
+  },
+  "homepage": "https://github.com/actuallyrizzn/tomtom-traffic-sdk#readme",
+  "devDependencies": {
+    "playwright": "^1.57.0"
+  }
+}
